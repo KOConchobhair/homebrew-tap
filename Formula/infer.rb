@@ -2,12 +2,11 @@ class Infer < Formula
   desc "Static analyzer for Java, C, C++, and Objective-C"
   homepage "https://fbinfer.com/"
   license "MIT"
-  revision 1
   head "https://github.com/facebook/infer.git", branch: "main"
 
   stable do
-    url "https://github.com/facebook/infer/archive/refs/tags/v1.0.0.tar.gz"
-    sha256 "10edee4a37f985afca120337130f92fec67c8651425571987ca2645b937c6395"
+    url "https://github.com/facebook/infer/archive/refs/tags/v1.1.0.tar.gz"
+    sha256 "201c7797668a4b498fe108fcc13031b72d9dbf04dab0dc65dd6bd3f30e1f89ee"
   end
 
   livecheck do
